@@ -1,0 +1,22 @@
+{
+    "name" : "Infragistics",
+    "identifier" : "com.infragistics.indigo.exportplugin",
+    "version" : "1.0.0",
+    "description" : "Export scketch projects to Indigo Prototypes.",
+    "authorEmail" : "indigo@infragistics.com",
+    "author" : "Infragistics",
+    "commands" : [
+    {
+      "script" : "script.js",
+      "handler" : "onRun",
+      "shortcut" : "",
+      "name" : "Export to Indigo Prototype",
+      "identifier" : "exportcommand"
+    },
+  ],
+  "menu": {
+    "items": [
+      "exportcommand"
+    ]
+  }
+}
