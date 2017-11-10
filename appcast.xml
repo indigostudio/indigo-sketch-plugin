@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+	<channel>
+		<title>Indigo Studio export plugin</title>
+		<description>Export to Indigo Studio to create interactive, animated prototypes.</description>
+		<link>https://indigo.infragistics.com/sketch/appcast.xml</link>
+		<language>en</language>
+		<item>
+			<title>Version 1.0.0</title>
+			<description>
+				<![CDATA[
+					<ul>
+						<li>Initial version 1.0.0</li>
+					</ul>
+				]]>
+			</description>
+			<enclosure url="https://indigo.infragistics.com/sketch/indigo-exporter.sketchplugin.zip" sparkle:version="1.0.0"/>
+		</item>
+	</channel>
+</rss>
