@@ -1,31 +1,32 @@
 {
-	"name": 		"Indigo Studio",
+	"name": 	"Indigo Studio",
 	"identifier": 	"com.infragistics.indigo.exportplugin",
-	"version": 		"1.0.0",
+	"version": 	"1.0.0",
 	"description": 	"Export to Indigo Studio to create interactive, animated prototypes.",
 	"authorEmail": 	"indigo@infragistics.com",
-	"author": 		"Infragistics",
-	"appcast":		"https://indigo.infragistics.com/sketch/appcast.xml",
+	"author": 	"Infragistics",
+	"appcast":	"https://indigo.infragistics.com/sketch/appcast.xml",
+	"compatibleVersion": "47.1",	
 	"commands": [
 		{
-			"script": 		"main.js",
-			"handler": 		"onExportAll",
+			"script": 	"main.js",
+			"handler": 	"onExportAll",
 			"shortcut": 	"",
-			"name": 		"Export all pages",
+			"name": 	"Export all pages",
 			"identifier": 	"export-all-command"
 		}, 
 		{
-			"script": 		"main.js",
-			"handler": 		"onExportCurrentPage",
+			"script": 	"main.js",
+			"handler": 	"onExportCurrentPage",
 			"shortcut": 	"",
-			"name": 		"Export current page",
+			"name": 	"Export current page",
 			"identifier": 	"export-current-page-command"
 		}, 
 		{
-			"script": 		"main.js",
-			"handler": 		"onExportSelectedArtboards",
+			"script": 	"main.js",
+			"handler": 	"onExportSelectedArtboards",
 			"shortcut": 	"",
-			"name": 		"Export selected artboards",
+			"name": 	"Export selected artboards",
 			"identifier": 	"export-selected-artboards-command"
 		}
 	],
